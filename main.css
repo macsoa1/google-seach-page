@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ html {
+   font-family: Arial, sans-serif;
+ }
+
+ /* TOP NAVIGATION/SEARCH BAR */
+.top-nav {
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+.top-nav img {
+   margin: 35px 0 0 30px;
+}
+
+.top-nav input {
+  border-radius: 15px;
+  width: 700px;
+  height: 34px;
+	display: block;
+	float: right;
+	margin: 30px 990px 0 0;
+}
+
+.top-nav li {
+  display: inline;
+	margin-right: 30px;
+	font-size: 14px;
+	color: gray;
+}
+
+.top-nav .top-nav-bar {
+  margin-top: 30px;
+  margin-left: 165px;
+}
+
+.top-nav-bar {
+	margin-bottom: 30px;
+}
+
+.top-nav-bar li:nth-child(6) {
+	margin-right: 150px;
+}
+
+/* SEARCH RESULTS */
+.container {
+  margin-left: 180px;
+}
+
+.search-stats {
+	font-size: 12px;
+  color: gray;
+  font-weight: 500;
+	margin-left: 175px;
+	margin-bottom: 30px;
+}
+
+.search-result {
+	margin-bottom: 30px;
+	width: 700px;
+}
+
+.search-result h3 {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: .5px;
+	color: blue;
+
+}
+
+.search-result h4 {
+	font-size: 13px;
+	font-weight: normal;
+	color: green;
+}
+
+.search-result p {
+	font-size: 13px;
+  color: gray;
+	font-weight: 500;
+}
+
+.related-links {
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+}
+
+.glogonav {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.page-links {
+	margin-left: 785px;
+	margin-bottom: 30px;
+}
+
+.page-links li {
+  display: inline;
+	font-size: 14px;
+	color: blue;
+	margin-right: 10px;
+}
+
+.page-links li:nth-child(10) {
+	margin-right: 75px;
+}
+
+/* FOOTER */
+.footer {
+	border-top: .5px solid gray;
+	background-color: lightgray;
+	padding-bottom: 10px;
+}
+
+.footer p, .footer ul {
+	margin-left: 180px;
+}
+
+.footer-nav {
+	margin-top: 15px;
+}
+
+.footer-nav li {
+	display: inline;
+	font-size: 13px;
+	color: gray;
+	margin-right: 20px;
+}
+
+.footer p {
+	font-size: 13px;
+	color: gray;
+}
+
+.footer-location {
+	font-size: 15px;
+	color: black;
+}
